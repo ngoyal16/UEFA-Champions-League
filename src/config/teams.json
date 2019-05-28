@@ -1,0 +1,196 @@
+{ 
+  "teams": [
+    {
+      "club": "Arsenal",
+      "country": "ENG",
+      "isDomestic": 0,
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Arsenal_FC.svg/800px-Arsenal_FC.svg.png"
+    },
+    {
+      "club": "Astana",
+      "country": "KAZ",
+      "isDomestic": 0,
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3f/Astana_Football_Club_logo.svg/1920px-Astana_Football_Club_logo.svg.png"
+    },
+    {
+      "club": "Atlético",
+      "country": "ESP",
+      "isDomestic": 0,
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/Atletico_Madrid_2017_logo.svg/800px-Atletico_Madrid_2017_logo.svg.png"
+    },
+    {
+      "club": "Barcelona",
+      "country": "ESP",
+      "isDomestic": 1,
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/800px-FC_Barcelona_%28crest%29.svg.png"
+    },
+    {
+      "club": "BATE",
+      "country": "BLR",
+      "isDomestic": 0,
+      "logo": "https://upload.wikimedia.org/wikipedia/en/4/49/Bate.png"
+    },
+    {
+      "club": "Bayern",
+      "country": "GER",
+      "isDomestic": 1,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg/800px-FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg.png"
+    },
+    {
+      "club": "Benfica",
+      "country": "POR",
+      "isDomestic": 1,
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/SL_Benfica_logo.svg/800px-SL_Benfica_logo.svg.png"
+    },
+    {
+      "club": "Chelsea",
+      "country": "ENG",
+      "isDomestic": 1,
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/800px-Chelsea_FC.svg.png"
+    },
+    {
+      "club": "CSKA Moskva",
+      "country": "RUS",
+      "isDomestic": 0,
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/26/PFK_CSKA_Logo.svg/800px-PFK_CSKA_Logo.svg.png"
+    },
+    {
+      "club": "Dinamo Zagreb",
+      "country": "CRO",
+      "isDomestic": 0,
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/GNK_Dinamo_Zagreb.svg/800px-GNK_Dinamo_Zagreb.svg.png"
+    },
+    {
+      "club": "Dynamo Kyiv",
+      "country": "UKR",
+      "isDomestic": 0,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/FC_Dynamo_Kyiv_logo.svg/800px-FC_Dynamo_Kyiv_logo.svg.png"
+    },
+    {
+      "club": "Galatasaray",
+      "country": "TUR",
+      "isDomestic": 0,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Galatasaray_Sports_Club_Logo.png/800px-Galatasaray_Sports_Club_Logo.png"
+    },
+    {
+      "club": "Gent",
+      "country": "BEL",
+      "isDomestic": 0,
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/KAA_Gent_logo.svg/800px-KAA_Gent_logo.svg.png"
+    },
+    {
+      "club": "Juventus",
+      "country": "ITA",
+      "isDomestic": 1,
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/Juventus_Turin.svg/320px-Juventus_Turin.svg.png?1558796747109"
+    },
+    {
+      "club": "Leverkusen",
+      "country": "GER",
+      "isDomestic": 0,
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/59/Bayer_04_Leverkusen_logo.svg/345px-Bayer_04_Leverkusen_logo.svg.png"
+    },
+    {
+      "club": "Lyon",
+      "country": "FRA",
+      "isDomestic": 0,
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/Olympique_Lyonnais.svg/800px-Olympique_Lyonnais.svg.png"
+    },
+    {
+      "club": "M. Tel-Aviv",
+      "country": "ISR",
+      "isDomestic": 0,
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/59/Maccabi_tel-aviv.fc.svg/800px-Maccabi_tel-aviv.fc.svg.png"
+    },
+    {
+      "club": "Malmö",
+      "country": "SWE",
+      "isDomestic": 0,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/3/33/Malm%C3%B6_FF_Logo.png"
+    },
+    {
+      "club": "Man. City",
+      "country": "ENG",
+      "isDomestic": 0,
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/800px-Manchester_City_FC_badge.svg.png"
+    },
+    {
+      "club": "Man. United",
+      "country": "ENG",
+      "isDomestic": 0,
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/800px-Manchester_United_FC_crest.svg.png"
+    },
+    {
+      "club": "Mönchengladbach",
+      "country": "GER",
+      "isDomestic": 0,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Borussia_M%C3%B6nchengladbach_logo.svg/240px-Borussia_M%C3%B6nchengladbach_logo.svg.png"
+    },
+    {
+      "club": "Olympiacos",
+      "country": "GRE",
+      "isDomestic": 0,
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Olympiacos_FC_logo.svg/300px-Olympiacos_FC_logo.svg.png"
+    },
+    {
+      "club": "Paris",
+      "country": "FRA",
+      "isDomestic": 1,
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Paris_Saint-Germain_F.C..svg/800px-Paris_Saint-Germain_F.C..svg.png"
+    },
+    {
+      "club": "Porto",
+      "country": "POR",
+      "isDomestic": 0,
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/FC_Porto.svg/800px-FC_Porto.svg.png"
+    },
+    {
+      "club": "PSV",
+      "country": "NED",
+      "isDomestic": 1,
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/PSV_Eindhoven.svg/1280px-PSV_Eindhoven.svg.png"
+    },
+    {
+      "club": "Real Madrid",
+      "country": "ESP",
+      "isDomestic": 0,
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/800px-Real_Madrid_CF.svg.png"
+    },
+    {
+      "club": "Roma",
+      "country": "ITA",
+      "isDomestic": 0,
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f7/AS_Roma_logo_%282017%29.svg/1200px-AS_Roma_logo_%282017%29.svg.png"
+    },
+    {
+      "club": "Sevilla",
+      "country": "ESP",
+      "isDomestic": 0,
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Sevilla_FC_logo.svg/800px-Sevilla_FC_logo.svg.png"
+    },
+    {
+      "club": "Shakhtar Donetsk",
+      "country": "UKR",
+      "isDomestic": 0,
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a1/FC_Shakhtar_Donetsk.svg/800px-FC_Shakhtar_Donetsk.svg.png"
+    },
+    {
+      "club": "Valencia",
+      "country": "ESP",
+      "isDomestic": 0,
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/Valenciacf.svg/800px-Valenciacf.svg.png"
+    },
+    {
+      "club": "Wolfsburg",
+      "country": "GER",
+      "isDomestic": 0,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Logo-VfL-Wolfsburg.svg/800px-Logo-VfL-Wolfsburg.svg.png"
+    },
+    {
+      "club": "Zenit",
+      "country": "RUS",
+      "isDomestic": 1,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/2/25/FC_Zenit_1_star_2015_logo.png"
+    }
+  ]
+}
