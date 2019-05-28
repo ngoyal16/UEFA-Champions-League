@@ -102,6 +102,7 @@ exports.list = (req, res) => {
   // Create groups of non-domestic teams
   let ngdt = createNonDomesticGroups(nonDomesticTeams, 3);
 
+  
   // check which domestic team is allowed to be leader of which which non-domestic group
   for(var i=0; i<domesticTeams.length; i++) {
     var temp = {
@@ -117,7 +118,7 @@ exports.list = (req, res) => {
     
     leaderGroups.push(temp)
   }
-
+  
   // sort leader group based on how many non-domestic group leader it can be
   leaderGroups.sort((a, b) => {
     let lenA = a.nonDomesticGroups.length;
@@ -132,8 +133,8 @@ exports.list = (req, res) => {
     
     return 0
   });
-
-  let groups = [];
+  
+  let tempGroups = [];
   let alreadyAddedGroup = [];
 
   // Create result based on domestic group and non-domestic group by check if group is alread attach to domestic or not
@@ -142,20 +143,27 @@ exports.list = (req, res) => {
     teams.push(leaderGroups[i].domesticTeam);
     
     var temp = leaderGroups[i].nonDomesticGroups;
+    
     for (var j=0; j<temp.length; j++) {
-      if (alreadyAddedGroup.indexOf(temp[j]) == -1) {
-        teams = teams.concat(ngdt[j].teams);
-        
+      if (alreadyAddedGroup.indexOf(temp[j]) == -1) {        
+        teams = teams.concat(ngdt[temp[j]].teams);
         alreadyAddedGroup.push(temp[j]);
         break;
       }
     }
     
-    groups.push({
+    tempGroups.push({
       "name": "Group " + (i+1),
       "teams": teams
     });
   }
+  
+  const groups = shuffle(tempGroups).map((group, idx) => {
+    return {
+      "name": "Group " + String.fromCharCode(idx + 65),
+      "teams": group.teams
+    }
+  });
 
   res.json({
     "status": 200,
